@@ -19,11 +19,14 @@ function getSum(numbers) {
   console.log(getSum([1, 2, 3, 4, 5])); // Output should be 15
   // I'm confident this is the method expected but could not get it to run. Would love feedback on this.
 }
-// I read about using reduce to sum the array, but I wanted to practice using a for loop. This method worked while testing where as the for loop did not.
+// I read about using reduce to sum the array, but I wanted to practice using a for loop.
+// This method worked while testing where as the for loop did not.
+// function getSum(numbers) {
 // const sum = numbers.reduce((accumulator, currentValue) => {
 //   return accumulator + currentValue;
 // }, 0);
-// return sum;
+// return sum
+// }
 /**
  * @param {number[]} numbers an array of integers
  * @returns {number} the mean of the numbers
