@@ -13,6 +13,7 @@ function getLength(numbers) {
 function getSum(numbers) {
   const sum = 0;
   for (let i = 0; i < numbers.length; i++) {
+    let currentNumber = numbers[i];
     sum += numbers[i];
   }
   return sum;
