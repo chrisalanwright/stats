@@ -16,7 +16,9 @@ function getSum(numbers) {
     sum += numbers[i];
   }
   return sum;
-  console.log(getSum([1, 2, 3, 4, 5])); // Output should be 15
+  // If
+  console.log(getSum([1, 2, 3, 4, 5]));
+  // Output should be 15
   // I'm confident this is the method expected but could not get it to run. Would love feedback on this.
 }
 // I read about using reduce to sum the array, but I wanted to practice using a for loop.
