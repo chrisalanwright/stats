@@ -76,7 +76,24 @@ function getMax(numbers) {
  * @returns {number} the range of the numbers (max - min)
  */
 function getRange(numbers) {
-  // TODO
+  if (numbers.length === 0) {
+    return 0;
+  }
+
+  let min = getMin(numbers);
+  let max = getMax(numbers);
+
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] < min) {
+      min = numbers[i];
+    }
+    if (numbers[i] > max) {
+      max = numbers[i];
+    }
+  }
+
+  return max - min;
+  //I'm not sure I'm doing this correctly. But am I at least on the right track?
 }
 
 /**
